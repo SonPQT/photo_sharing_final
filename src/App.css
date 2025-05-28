@@ -1,0 +1,40 @@
+.app-container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.main-topbar-buffer {
+  margin-top: 70px;
+}
+
+.main-grid-item {
+  height: calc(100vh - 85px);
+  padding: 16px;
+  overflow-y: auto;
+  background-color: #ffffff;
+}
+
+.sidebar {
+  border-right: 1px solid #e0e0e0;
+}
+
+.content {
+  min-height: calc(100vh - 85px);
+}
+
+@media (max-width: 600px) {
+  .main-topbar-buffer {
+    margin-top: 100px;
+  }
+
+  .main-grid-item {
+    height: auto;
+    min-height: 200px;
+    margin-bottom: 16px;
+  }
+
+  .sidebar {
+    border-right: none;
+    border-bottom: 1px solid #e0e0e0;
+  }
+}

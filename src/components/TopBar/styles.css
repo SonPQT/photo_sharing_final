@@ -1,0 +1,36 @@
+.topbar-appBar {
+  background-color: #1976d2 !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+.toolbar {
+  display: flex !important;
+  justify-content: space-between !important;
+  padding: 0 24px !important;
+  min-height: 64px !important;
+}
+
+.author-name {
+  font-weight: 500 !important;
+  letter-spacing: 0.5px !important;
+}
+
+.context-text {
+  font-weight: 400 !important;
+  opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+  .toolbar {
+    padding: 0 16px !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+  }
+
+  .context-text {
+    margin-top: 4px !important;
+    font-size: 0.9rem !important;
+  }
+}
